@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodríguez & Vega - Despacho Jurídico & Contable</title>
+    <style>
+        /* Estilos CSS Base */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #004d40;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin-bottom: 5px;
+            font-size: 2.8em;
+            text-transform: uppercase;
+        }
+        header p {
+            font-size: 1.4em;
+            font-weight: 300;
+        }
+        /* Estilo para la imagen del logo (Asegúrate de tener la carpeta IMG/LOGO.jpeg) */
+        header img {
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            overflow: hidden;
+            padding-bottom: 30px;
+        }
+        /* Contenedor de Contacto */
+        .contact-info {
+            background-color: #e0f2f1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .contact-info h2 {
+            color: #004d40;
+            margin-top: 0;
+            border-bottom: 2px solid #004d40;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .contact-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .contact-item {
+            padding: 15px 25px;
+            background-color: white;
+            border-radius: 6px;
+            margin: 10px;
+            min-width: 250px;
+            flex-basis: 40%;
+        }
+        .contact-item strong {
+            display: block;
+            font-size: 1.2em;
+            color: #00796b;
+            margin-bottom: 5px;
+        }
+        /* Estilo para los enlaces de WhatsApp */
+        .contact-item a {
+            color: #25D366; /* Color de WhatsApp */
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        .contact-item a:hover {
+            color: #128c7e;
+            text-decoration: underline;
+        }
+        /* Secciones de Servicio y Botones */
+        .service-sections {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+        .service-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            flex: 1 1 45%; 
+            min-width: 300px;
+            text-align: center;
+        }
+        .service-card h3 {
+            color: #004d40;
+            font-size: 1.8em;
+            margin-top: 0;
+        }
+        .service-card p {
+            font-size: 1em;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        .service-card .button {
+            display: inline-block;
+            background-color: #00796b;
+            color: white;
+            padding: 12px 25px;
+            margin-top: 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.05em;
+            transition: background-color 0.3s;
+        }
+        .service-card .button:hover {
+            background-color: #004d40;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="IMG/LOGO.jpeg" alt="Logo Rodríguez & Vega" width="200" height="200">
+        <h1>Rodríguez & Vega</h1>
+        <p>Despacho Jurídico & Contable: Su Solución Integral</p>
+    </header>
+
+    <div class="container">
+        
+
+        
+        <section class="service-sections">
+            <div class="service-card">
+                <h3>Área Legal y Fiscal</h3>
+                <p>
+                    Ofrecemos una defensa sólida y estratégica en materia **Familiar, Civil, Mercantil y, especialmente, Fiscal**. Manejamos desde trámites notariales básicos y divorcios hasta la representación ante autoridades como el **SAT, IMSS e INFONAVIT**. Nuestro objetivo es proteger sus derechos y patrimonio.
+                </p>
+                <a href="legal.html" class="button">Ver Servicios Legales</a>
+            </div>
+
+            <div class="service-card">
+                <h3>Área Contable y Empresarial</h3>
+                <p>
+                    Proporcionamos una gestión **contable, fiscal y de nóminas** precisa para empresas y particulares. Garantizamos el cumplimiento de todas las obligaciones ante el **SAT, IMSS e INFONAVIT**, y ofrecemos asesoría jurídica y contractual para la operación diaria de su negocio, asegurando su estabilidad financiera y legal.
+                </p>
+                <a href="contaduria.html" class="button">Ver Servicios Contables</a>
+            </div>
+        </section>
+                <section class="contact-info">
+            <h2>Contacto Directo por WhatsApp</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <strong>Área Legal (Abogado): 8110616362</strong>
+                    <a href="https://wa.me/528110616362" target="_blank"><h1>contactanos en</h1> <img src="IMG/logo whatsapp.webp" height="100" width="100"></a>
+                </div>
+                <div class="contact-item">
+                    <strong>Área Contable: 8132818758</strong>
+                    <a href="https://wa.me/528132818758" target="_blank"><h1>contactanos en</h1><img src="IMG/logo whatsapp.webp" height="100" width="100"></a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>

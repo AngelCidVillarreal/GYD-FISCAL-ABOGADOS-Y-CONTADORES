@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Contables y Empresariales - Rodríguez & Vega</title>
+    <style>
+        /* Estilos CSS Base */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #004d40;
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 5px;
+            font-size: 2.2em;
+        }
+        header a {
+            color: #e0f2f1;
+            text-decoration: none;
+            font-size: 1em;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        /* Lista de Servicios Contables */
+        .accounting-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .accounting-list li {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            border-left: 5px solid #00796b;
+            flex: 1 1 calc(50% - 20px); /* Dos columnas */
+            min-width: 300px;
+        }
+        .accounting-list strong {
+            display: block;
+            color: #004d40;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+        }
+        .contact-contable {
+            text-align: center;
+            background-color: #b2ebf2;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .contact-contable strong {
+            color: #004d40;
+        }
+        @media (max-width: 768px) {
+            .accounting-list li {
+                flex: 1 1 100%; /* Una columna en móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Servicios Contables y Empresariales</h1>
+        <p>Gestión y Cumplimiento Financiero</p>
+        <a href="index.html"><h1>← MENU</h1></a>
+    </header>
+
+    <div class="container">
+        <div class="contact-contable">
+            ** Contacto:* 8132818758
+        </div>
+
+        <ul class="accounting-list">
+            <li>
+                <strong>Contabilidad:</strong> Se refiere al registro, clasificación y resumen de las transacciones financieras de una empresa. Es fundamental para conocer la situación económica y financiera.
+            </li>
+            <li>
+                <strong>Impuestos y Asesoría Fiscal:</strong> Se ocupa del cálculo, la presentación y el cumplimiento de las obligaciones tributarias (ISR, IVA, etc.) ante el SAT. Implica estrategias para optimizar la carga tributaria dentro del marco legal.
+            </li>
+            <li>
+                <strong>Nóminas:</strong> Proceso de calcular y administrar los pagos a los empleados, incluyendo sueldos, deducciones, retenciones de impuestos y cuotas de seguridad social.
+            </li>
+            <li>
+                <strong>IMSS (Seguro Social):</strong> Implica el cálculo y pago de las cuotas obrero-patronales para garantizar servicios de salud y seguridad social a los trabajadores.
+            </li>
+             <li>
+                <strong>INFONAVIT (Vivienda):</strong> Implica el pago de aportaciones patronales que se destinan a un fondo para que los trabajadores puedan obtener créditos para vivienda.
+            </li>
+            <li>
+                <strong>Contratos Empresariales:</strong> Elaboración, revisión y gestión de diversos documentos legales que formalizan acuerdos con empleados, proveedores o clientes (mercantiles, laborales, etc.).
+            </li>
+            <li>
+                <strong>Asesoría Jurídica Empresarial:</strong> Apoyo legal en diversas materias (laboral, mercantil, corporativa) para asegurar que las operaciones de la empresa cumplan con las leyes vigentes y para la prevención o resolución de conflictos.
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
